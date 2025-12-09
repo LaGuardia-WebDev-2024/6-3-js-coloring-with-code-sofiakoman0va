@@ -11,19 +11,37 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+
+    background(148,251,255);
+
   // The ground
+  fill(204,229,255)
   rect(0, 300, 400, 100);  
+  
 
   // The sun
+  fill(255,255,204)
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill(255,204,255)
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
-  
 
+  fill(255,255,255)
+   ellipse(220,100,10,10);
+  ellipse(180,100,10,10);
+  ellipse(200,130,30,30);
+
+  fill(0,102,204)
+  ellipse(200,320,10,10);
+  ellipse(200,280,10,10);
+  ellipse(200,200,10,10);
+  ellipse(200,170,10,10);
+  line(230,180,300,150);
+  line(160,180,100,280);
+  
 }
 
 //🟡Extra FUN Features Ms. Hall Added
